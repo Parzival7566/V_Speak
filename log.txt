@@ -96,3 +96,86 @@
 2023-09-19 15:17:52,945 [INFO] - 127.0.0.1 - - [19/Sep/2023 15:17:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2023-09-19 15:17:52,948 [INFO] - 127.0.0.1 - - [19/Sep/2023 15:17:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
 2023-09-19 15:17:52,952 [INFO] - 127.0.0.1 - - [19/Sep/2023 15:17:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 19:06:29,658 [INFO] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-09-19 19:06:29,661 [INFO] -  * Restarting with stat
+2023-09-19 19:06:30,626 [WARNING] -  * Debugger is active!
+2023-09-19 19:06:30,634 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 19:06:30,669 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:30] "GET / HTTP/1.1" 200 -
+2023-09-19 19:06:30,672 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:30] "GET / HTTP/1.1" 200 -
+2023-09-19 19:06:38,689 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-09-19 19:06:38,703 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-19 19:06:38,704 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-19 19:06:38,719 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 19:06:38,721 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2023-09-19 19:06:38,727 [INFO] - 127.0.0.1 - - [19/Sep/2023 19:06:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 21:22:08,485 [INFO] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-09-19 21:22:08,486 [INFO] -  * Restarting with stat
+2023-09-19 21:22:09,486 [WARNING] -  * Debugger is active!
+2023-09-19 21:22:09,492 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 21:22:09,532 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-19 21:22:09,545 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-19 21:22:09,546 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-19 21:22:09,547 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-19 21:22:09,557 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 21:22:09,563 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-19 21:22:09,563 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-19 21:22:09,566 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2023-09-19 21:22:09,579 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 21:22:09,585 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 21:22:09,588 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2023-09-19 21:22:09,592 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-19 21:22:43,199 [INFO] -  * Detected change in '/Users/kanishkarya/Desktop/Projects/V_Speak/app.py', reloading
+2023-09-19 21:22:43,305 [INFO] -  * Restarting with stat
+2023-09-19 21:22:44,330 [WARNING] -  * Debugger is active!
+2023-09-19 21:22:44,336 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 21:22:44,377 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:44] "GET / HTTP/1.1" 200 -
+2023-09-19 21:22:53,301 [INFO] - 127.0.0.1 - - [19/Sep/2023 21:22:53] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-09-19 22:02:01,654 [INFO] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-09-19 22:02:01,657 [INFO] -  * Restarting with stat
+2023-09-19 22:02:02,647 [WARNING] -  * Debugger is active!
+2023-09-19 22:02:02,655 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:02:02,687 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:02:02] "GET / HTTP/1.1" 200 -
+2023-09-19 22:02:02,689 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:02:02] "GET / HTTP/1.1" 200 -
+2023-09-19 22:02:23,690 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:02:23] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-09-19 22:06:22,874 [INFO] -  * Detected change in '/Users/kanishkarya/Desktop/Projects/V_Speak/app.py', reloading
+2023-09-19 22:06:22,976 [INFO] -  * Restarting with stat
+2023-09-19 22:06:24,151 [WARNING] -  * Debugger is active!
+2023-09-19 22:06:24,161 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:06:24,200 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:06:24] "GET / HTTP/1.1" 200 -
+2023-09-19 22:06:51,537 [INFO] - Audio extraction successful for file: Test.mp4
+2023-09-19 22:06:51,537 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:06:51] "POST /upload HTTP/1.1" 200 -
+2023-09-19 22:06:55,146 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:06:55] "[33mGET /audio/Test.mp4.mp3 HTTP/1.1[0m" 404 -
+2023-09-19 22:22:10,967 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:22:10] "[33mGET /audio/Test.mp4.mp3 HTTP/1.1[0m" 404 -
+2023-09-19 22:25:04,352 [INFO] -  * Detected change in '/Users/kanishkarya/Desktop/Projects/V_Speak/app.py', reloading
+2023-09-19 22:25:04,453 [INFO] -  * Restarting with stat
+2023-09-19 22:25:05,804 [WARNING] -  * Debugger is active!
+2023-09-19 22:25:05,813 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:25:05,861 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:25:05] "GET / HTTP/1.1" 200 -
+2023-09-19 22:25:11,480 [ERROR] - Audio extraction failed for file: Test.mp4
+2023-09-19 22:25:11,481 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:25:11] "POST /upload HTTP/1.1" 200 -
+2023-09-19 22:26:08,895 [ERROR] - Audio extraction failed for file: Test.mp4
+2023-09-19 22:26:08,896 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:26:08] "POST /upload HTTP/1.1" 200 -
+2023-09-19 22:27:14,385 [INFO] -  * Detected change in '/Users/kanishkarya/Desktop/Projects/V_Speak/app.py', reloading
+2023-09-19 22:27:14,486 [INFO] -  * Restarting with stat
+2023-09-19 22:27:15,644 [WARNING] -  * Debugger is active!
+2023-09-19 22:27:15,656 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:27:15,703 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:27:15] "GET / HTTP/1.1" 200 -
+2023-09-19 22:27:21,571 [INFO] - Audio extraction successful for file: Test.mp4
+2023-09-19 22:27:21,572 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:27:21] "POST /upload HTTP/1.1" 200 -
+2023-09-19 22:27:22,970 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:27:22] "[33mGET /audio/Test.mp4.mp3 HTTP/1.1[0m" 404 -
+2023-09-19 22:42:38,118 [INFO] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-09-19 22:42:38,121 [INFO] -  * Restarting with stat
+2023-09-19 22:42:39,201 [WARNING] -  * Debugger is active!
+2023-09-19 22:42:39,207 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:42:39,241 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:42:39] "GET / HTTP/1.1" 200 -
+2023-09-19 22:42:39,242 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:42:39] "GET / HTTP/1.1" 200 -
+2023-09-19 22:42:50,846 [INFO] - Audio extraction successful for file: Test.mp4
+2023-09-19 22:42:51,234 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:42:51] "POST /upload HTTP/1.1" 200 -
+2023-09-19 22:44:51,604 [INFO] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-09-19 22:44:51,605 [INFO] -  * Restarting with stat
+2023-09-19 22:44:52,560 [WARNING] -  * Debugger is active!
+2023-09-19 22:44:52,567 [INFO] -  * Debugger PIN: 107-926-726
+2023-09-19 22:44:52,603 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:44:52] "GET / HTTP/1.1" 200 -
+2023-09-19 22:44:52,604 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:44:52] "GET / HTTP/1.1" 200 -
+2023-09-19 22:45:00,399 [INFO] - Audio extraction successful for file: Test.mp4
+2023-09-19 22:45:04,087 [INFO] - 127.0.0.1 - - [19/Sep/2023 22:45:04] "POST /upload HTTP/1.1" 200 -
