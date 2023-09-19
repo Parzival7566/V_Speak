@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Translation</title>
+</head>
+<body>
+    <h1>Upload Video for Translation</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="file">Choose a video file:</label>
+        <input type="file" name="file" id="file" required>
+        <br>
+        <label for="target_language">Select the target language:</label>
+        <select name="target_language" id="target_language" required>
+            <option value="Hindi">Hindi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telugu">Telugu</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <input type="submit" value="Upload and Translate">
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
