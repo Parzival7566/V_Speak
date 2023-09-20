@@ -4,12 +4,14 @@ import os
 import logging
 import webbrowser
 import sys
+import language_tool_python
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize
 
 from video_processing.video_processor import extract_audio
 from speech_2_txt.stt import perform_stt
 
-# Append the path to the speech_2_txt directory
-sys.path.append(os.path.join(os.path.dirname(__file__), 'speech_2_txt'))
+nltk.download('punkt')  # Download the necessary data for NLTK tokenization
 
 app = Flask(__name__)
 
@@ -21,6 +23,9 @@ app.config['ALLOWED_EXTENSIONS'] = {'mp4'}
 # Logging configuration
 log_format = '%(asctime)s [%(levelname)s] - %(message)s'
 logging.basicConfig(filename='log.txt', level=logging.INFO, format=log_format)
+
+# Initialize the LanguageTool for grammar checking
+grammar_tool = language_tool_python.LanguageToolPublicAPI('en-US')
 
 # Ensure upload and audio directories exist
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
@@ -61,12 +66,23 @@ def upload_video():
             log_message = f'Audio extraction successful for file: {filename}'
             app.logger.info(log_message)
 
-            # Perform speech-to-text (STT) conversion using the imported perform_stt function
-            text = perform_stt(audio_filename)
-            if text:
-                return f'Audio extracted successfully. Text: {text}'
-            else:
-                return 'Audio extraction successful, but STT conversion failed.'
+            # After performing STT conversion
+            recognized_text = perform_stt(audio_filename)
+
+            # Tokenize sentences and words using NLTK
+            sentences = sent_tokenize(recognized_text)
+            tokenized_sentences = [word_tokenize(sentence) for sentence in sentences]
+
+            # Perform grammar checking and text correction
+            corrected_sentences = [grammar_tool.correct(" ".join(tokens)) for tokens in tokenized_sentences]
+            corrected_text = " ".join(corrected_sentences)
+
+            # Log the corrected text
+            log_message = f'Grammar checking and text correction completed. Corrected text: {corrected_text}'
+            app.logger.info(log_message)
+
+            # Return the corrected text to the user
+            return f'Grammar checking and text correction completed. Corrected text: {corrected_text}'
         else:
             log_message = f'Audio extraction failed for file: {filename}'
             app.logger.error(log_message)
