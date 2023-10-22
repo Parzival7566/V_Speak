@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Audio Text</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Review Audio Text</h1>
+    <form action="/review_audio" method="POST">
+        <label for="text">Edit the text as needed:</label>
+        <textarea name="text" id="text" required style="width: 100%; height: 300px;">{{ text }}</textarea>
+        <br>
+        <label for="target_language">Verify the target language:</label>
+        <select name="target_language" id="target_language">
+            <option value="Hindi">Hindi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telugu">Telugu</option>
+            <!-- Add more options for other languages as needed -->
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>

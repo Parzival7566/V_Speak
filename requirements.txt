@@ -6,3 +6,6 @@ SpeechRecognition
 pydub
 language_tool_python
 nltk
+translate
+gtts
+pyttsx3

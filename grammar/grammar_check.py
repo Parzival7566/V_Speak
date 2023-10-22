@@ -18,7 +18,7 @@ def gc(recognized_text):
         corrected_text = " ".join(corrected_sentences)
 
         # Return the corrected text to the user
-        return f'Grammar checking and text correction completed. Corrected text: {corrected_text}'
+        return (corrected_text)
     except Exception as e:
         # Handle any exceptions that occur during grammar checking
         return f'Grammar checking and text correction failed. Error: {str(e)}'
